@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Floats</title>
+		
+		<style type="text/css">
+			body {
+				width: 750px;
+				font-family: "Courier New", Courier, monospace;
+			}
+
+			#title {
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				background-color: gray;
+				color: white;
+				width: 100%;	
+			}
+			
+			#normal {
+				/* position: static; */
+				margin-top: 75px;
+			}
+
+		
+			#relative {
+				position: relative;
+				top: 10px;
+				left: 100px;
+			}
+
+			#absolute {
+				position: absolute;
+				top: 200px;
+				left: 10px;
+				
+			}
+
+			#title2 {
+				margin-top: 100px;
+			}
+
+			.flt {
+				width: 230px;
+				float: left;
+				margin: 5px;
+				padding: 5px;
+				background-color: #efefef;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1 id="title">CSS Layout Tutorial</h1>
+		
+		<p id="normal">Normal positioning is when block-level 
+			elements such as paragraphs sit on top of
+			each of other, this is the default.</p>
+
+		<p id="relative">Relative positioning is when an element
+			is positioned relative to where it would have been
+			in normal flow.</p>
+
+		<p id="absolute">Absolute positioning is when an element is
+			positioned relative to its first positioned 
+		        (non static) ancestor element.</p>
+
+	
+		<h2 id="title2">Using Float elements to place boxes side 
+			by side</h2>
+
+		<p class="flt">In 1817 Baron von Drais invented a walking 
+			machine that would help him get around the royal
+			gardens faster.</p>
+	
+		<p class="flt">The device know as the Draisienne (or "hobby
+			 horse") was made of wood, and propelled by pushing
+			 your feed on the ground in a gliding movement.</p>
+		
+		<p class="flt">It was not seen a suitable for any place 
+			other than a well maintained pathway. </p>
+		
+		<p class="flt">In 1865, the velocipede (meaning "fast
+			 foot") attached pedals to the front wheel, but
+			 its wooden structure made it extremely
+			 uncomfortable. </p>
+	
+		<p class="flt">In 1870 the first all-metal machine
+			 appeared. The pedals were attached directly to
+			 the front wheel. 
+	
+		<p class="flt">Solid rubber tires and the long spokes of the large
+			 front wheel provided a much smoother ride than
+			 its predecessor.</p>
+	</body>
+</html>
